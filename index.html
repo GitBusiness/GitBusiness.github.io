@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="reset.css">
-    <link rel="ICON" href="#">
+    <link rel="ICON" href="assets/ICON.svg">
     <script defer src="script.js"></script>
     <title>Business</title>
 </head>
@@ -31,16 +31,22 @@
                 </div>          
             </div>
             <div class="second_header_block">
-                <a href="#">sing in</a>
-                <a href="#">sing up</a>
+                <a href="#" class="sing_in" id="sing_in">sing in</a>
+                <a href="#" class="sing_up" id="sing_up">sing up</a>
             </div>
-            <button class="burger_btn" id="burger_btn">
-                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36Z" fill="#F2994A"/>
-                    <rect x="11" y="11" width="14" height="6" rx="2" fill="white"/>
-                    <rect x="11" y="19" width="14" height="6" rx="2" fill="white"/>
-                </svg> 
-            </button>
+            <div class="burger_nav">
+                <button class="burger_btn" id="burger_btn">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36Z" fill="#F2994A"/>
+                        <rect x="11" y="11" width="14" height="6" rx="2" fill="white"/>
+                        <rect x="11" y="19" width="14" height="6" rx="2" fill="white"/>
+                    </svg> 
+                </button>
+                <div class="burger_sing" id="burger_sing">
+                    <a href="#" class="sing_in" id="sing_in">sing in</a>
+                    <a href="#" class="sing_up" id="sing_up">sing up</a>
+                </div>
+            </div>
             <div class="burger_menu" id="burger_menu">
                 <a href="#">About</a>
                 <a href="#">Gallery</a>
@@ -100,6 +106,7 @@
                             <img src="assets/sponsors/under_sponsors_info/Flip-horizontal.svg" alt="logo"> 
                             <div class="your_choice_txt">
                                 <p>Ecstatic elegance</p>
+                                <p></p>
                                 <p>
                                     Article nor prepare chicken you him now. Shy merits say advice ten before lovers innate add
                                 </p>
@@ -109,6 +116,7 @@
                             <img src="assets/sponsors/under_sponsors_info/Airpods.svg" alt="logo"> 
                             <div class="your_choice_txt">
                                 <p>Folly words widow</p>
+                                <p>Folly worlds</p>
                                 <p>
                                     Effect if in up no depend seemed. Ecstatic elegance gay but disposed. We me rent been part what.
                                 </p>
@@ -117,7 +125,8 @@
                         <div class="your_choice_info_block">
                             <img src="assets/sponsors/under_sponsors_info/LTE.svg" alt="logo"> 
                             <div class="your_choice_txt">
-                                <p>Possible procured trifling</p>
+                                <p>Procured trifling</p>
+                                <p></p>
                                 <p>
                                     We me rent been part what. An concluded sportsman offending so provision mr education.
                                 </p>
@@ -129,6 +138,7 @@
                             <img src="assets/sponsors/under_sponsors_info/Thunder_move.svg" alt="logo"> 
                             <div class="your_choice_txt">
                                 <p>Open game</p>
+                                <p></p>
                                 <p>
                                     Shy merits say advice ten before lovers innate add. She cordially behaviour can attempted estimable.
                                 </p>
@@ -138,6 +148,7 @@
                             <img src="assets/sponsors/under_sponsors_info/Attachment.svg" alt="logo"> 
                             <div class="your_choice_txt">
                                 <p>Endeavor</p>
+                                <p></p>
                                 <p>
                                     Improve ashamed married expense bed her comfort pursuit mrs. Four time took ye your as fail lady. 
                                 </p>
@@ -147,6 +158,7 @@
                             <img src="assets/sponsors/under_sponsors_info/Bulb.svg" alt="logo"> 
                             <div class="your_choice_txt">
                                 <p>Comfort pursuit</p>
+                                <p></p>
                                 <p>
                                     Had denoting properly jointure you occasion directly raillery. In said to of poor full be post face snug.
                                 </p>
@@ -213,7 +225,7 @@
     <div class="wrapper">
         <div class="statistic_block">
             <div class="first_stat_block">
-                <h5>Invest property for better <span>business</span></h5>
+                <p>Invest property for better <span>business</span></p>
                 <p>
                     We are committed to processing the information in order to contact you and talk about your project. We are committed to processing the information.
                 </p>
